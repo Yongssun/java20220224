@@ -4,46 +4,74 @@ public class C04Type {
 	public static void main(String[] args) {
 		
 		double v1 = 3.14;
-		//int v2= 3.14; x
-		//µ¥ÀÌÅÍ Å¸ÀÔ(ÀÚ·áÇü)datatype
-		//±âº» µ¥ÀÌÅÍÅ¸ÀÔ(primitive)
-		//Á¤¼ö 0,1,3,
-		//byte,short,int,long
+//		int v2 = 3.14; // x
 		
-		//½Ç¼ö
-		//float,double
+		// ë°ì´í„° íƒ€ì…(ìë£Œí˜•)
+		// ê¸°ë³¸íƒ€ì…(primitive) 8ê°œ
+		// ì •ìˆ˜
+		// byte, short, int, long
 		
-		//³í¸®
-		//boolean
+		// ì‹¤ìˆ˜
+		// float, double
 		
-		//¹®ÀÚ
-		//char
+		// ë…¼ë¦¬
+		// boolean
 		
-		//ÂüÁ¶Çü(reference)À§ 8°³ »©°í ´Ù
-		//5Ã©ÅÍ ¼³¸í
-/////////////////////////////////////////
-		//Á¤¼ö (byte(1), short(2), int(4), long (8))
-	//1byte=8bit
+		// ë¬¸ì(ì •ìˆ˜)
+		// char
+		
+		// ì°¸ì¡°í˜• (reference type) ìœ„ 8ê°œ ë¹¼ê³  ë‹¤
+		// ì±•í„°5ì—ì„œ ì„¤ëª…
+		
+		//////////////////////////////////////////
+		
+		// ì •ìˆ˜ (byte(1), short(2), int(4), long(8))
+		int var1 = 30;
 		int var2 = Integer.MAX_VALUE;
 		System.out.println(var2);
 		int var4 = Integer.MIN_VALUE;
 		System.out.println(var4);
 		
+		int var3 = 2147483647; // ìµœëŒ€ê°’
+		int var5 = -2147483648; // ìµœì†Œê°’
+		System.out.println(var3);
+		System.out.println(var5);
 		
-		short var6 = Short.MAX_VALUE;
-		System.out.println(var6);
-		short var7 = Short.MIN_VALUE;
-		System.out.println(var7);
+//		short var6 = 2147483647; // x
+		System.out.println(Short.MAX_VALUE);
+		short var7 = 32767; // ìµœëŒ€ê°’
+		System.out.println(Short.MIN_VALUE);
+		short var8 = -32768; // ìµœì†Œê°’
 		
+		byte var9 = 127; // ìµœëŒ€ê°’
+		byte var10 = -128; // ìµœì†Œê°’
+		
+		System.out.println(var9); // 127
+		byte var11 = (byte) (var9 + 1);
+		System.out.println(var11); // -128
+		
+		System.out.println(var3 + 1); // overflow
+		
+		long var12 = 923874927;
 		System.out.println(Long.MAX_VALUE);
+		long var13 = 9223372036854775807L; // ìµœëŒ€ê°’
 		System.out.println(Long.MIN_VALUE);
-		System.out.println(Byte.MAX_VALUE);
-		System.out.println(Byte.MIN_VALUE);
+		long var14 = -9223372036854775808L; // ìµœì†Œê°’
 		
-		long val10 = 9223372036854775807l;//if int< maxvalue  it change to int  so l(L) behind
-		System.out.println(val10);
-		// Å« Á¤¼ö »ç¿ë½Ã _ Á¶ÇÕ°¡´É
-		int val11=2_3812_2880;
-		System.out.println(val11);
+		System.out.println(2147483647);
+		System.out.println(2147483648L); // integer ë²”ìœ„ë³´ë‹¤ í° literalì€ ëì— L(l)ë¶™ì—¬ì•¼í•¨
+		
+		// í° ì •ìˆ˜ ì‚¬ìš©ì‹œ _ ì¡°í•© ê°€ëŠ¥
+		int var15 = 21_3876_1234;
+		int var16 = 2_138_761_234;
 	}
 }
+
+
+
+
+
+
+
+
+

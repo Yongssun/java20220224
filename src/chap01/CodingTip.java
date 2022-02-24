@@ -1,18 +1,29 @@
 package chap01;
 
 public class CodingTip {
-	// hint: ctrl+ space
+	// hint : ctrl + space
+	
+	// main 메소드 코드 단축 키워드 : main
 	public static void main(String[] args) {
-		// �옄�룞 肄붾뵫 �룷留룻똿 ctrl + shift+f
-		System.out.println("異쒕젰�븷 �뀓�뒪�듃");
-		// 肄섏넄 異쒕젰 肄붾뱶 (sysout or sout)ctrl+space
-		System.out.println("異쒕젰�븷 �뀓�뒪�듃");
-		System.out.println("異쒕젰�븷 �뀓�뒪�듃");
-		//�떎�뻾 ctrl+ f11
-		//二쇱꽍: ctrl +/
-		//李쏀겕湲곕�寃� ctrl +m
-		// ctrl n
-		//���옣  ctrl s
-		//window+. 이모티콘
+
+		// 자동코드포맷팅 : ctrl + shift + f
+		
+		// 콘솔 출력
+		System.out.println("출력할 텍스트");
+		
+		// 콘솔 출력 코드 단축 키워드 : sysout, sout
+		System.out.println("출력할 텍스트");
+		System.out.println("출력할 텍스트");
+		
+		// 실행 : ctrl + f11
+		
+		// 주석 : ctrl + /
+		
+		// 창크기변경 : ctrl + m
+		
+		// 새파일 : ctrl + n
+		
+		// 저장 : ctrl + s
+		//window + . 이모티콘
 	}
 }

@@ -2,20 +2,60 @@ package chap02.lecture;
 
 public class C01Variable {
 	public static void main(String[] args) {
-		//º¯¼ö¼±¾ğ
-		//Å¸ÀÔ º¯¼ö¸í
+		// ë³€ìˆ˜ ì„ ì–¸
+		// íƒ€ì… ë³€ìˆ˜ëª…;
 		int var1;
-		//º¯¼ö¸í: lowerCamelCase
-		// ¿µ¹® ´ë¼Ò¹®ÀÚ ¼ıÀÚ $ _ ¼ıÀÚ ½ÃÀÛ ºÒ°¡
-		//ÀÚ¹Ù ¿¹¾à¾î (keyword) »ç¿ëºÒ°¡
-		//º¯¼ö¿¡ ÀúÀåµÈ °ªÀ» ´Ù¸¥ ¸í·É¹®¿¡¼­ »ç¿ë°¡´É
+		
+		// ë³€ìˆ˜ëª… : 
+		// ì˜ë¬¸ëŒ€ì†Œë¬¸ì, ìˆ«ì, $, _
+		// ìˆ«ìë¡œ ì‹œì‘í•  ìˆ˜ ì—†ìŒ
+		// ìë°” ì˜ˆì•½ì–´(keyword, reserved word) ì‚¬ìš© ëª»í•¨
+		
+//		int int; // ì•ˆë¨
+		int name; // ok
+//		int 3name; // not ok
+		int my_name; // ok but xxx
+		
+		// ë³€ìˆ˜ëª… ì‘ì„± ê´€ìŠµ
+		// lowerCamelCase
+		int myName; // ok 
+		
+		// ë³€ìˆ˜ì— ì €ì¥ëœ ê°’ì„ ë‹¤ë¥¸ ëª…ë ¹ë¬¸ì—ì„œ ì‚¬ìš© ê°€ëŠ¥
+		// ë³€ìˆ˜ì— ê°’ ì €ì¥(í• ë‹¹, ëŒ€ì…)
 		int var2;
-		var2= 3;
+		var2 = 3; // í• ë‹¹(ëŒ€ì…)ì—°ì‚°ì ì‚¬ìš©
+		
 		System.out.println(var2);
-		var2=5;
-		System.out.println(var2);	
+		
+		var2 = 5;
+		System.out.println(var2);
+		
+		// ë³€ìˆ˜ ì„ ì–¸ê³¼ ê°’ í• ë‹¹ 
 		int var3 = 10;
+		
 		System.out.println(var3);
-		int v4, v5, v6;
+		
+		var3 = 11;
+		System.out.println(var3);
+		
+		// ë³€ìˆ˜ ì—¬ëŸ¬ê°œ ì„ ì–¸
+		int var4, var5, var6;
+		var4 = 99;
+		var5 = 10;
+		var6 = 11;
+		
+		// ë³€ìˆ˜ ì—¬ëŸ¬ê°œ ì„ ì–¸, ê°’ í• ë‹¹
+		int var7 = 11, var8 = 12, var9 = 13;
+		
+		// ë³€ìˆ˜ ì„ ì–¸ í›„ ê°’ í• ë‹¹í•˜ì§€ ì•Šê³  ì‚¬ìš© ë¶ˆê°€
+		int var10;
+		var10 = 99;
+		System.out.println(var10);
+		
+		int var11;
+		var11 = var10 + 3;
+		System.out.println(var11);
+		
+		
 	}
 }

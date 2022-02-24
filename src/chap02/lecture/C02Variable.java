@@ -2,13 +2,16 @@ package chap02.lecture;
 
 public class C02Variable {
 	public static void main(String[] args) {
-		//º¯¼öÀÇ »ç¿ë¹üÀ§: ¼±¾ğµÈ ºí·° {}¾È¿¡¼­ ¸¸ »ç¿ë °¡´É
+		// ë³€ìˆ˜ì˜ ì‚¬ìš© ë²”ìœ„(scope) : ì„ ì–¸ëœ ë¸”ëŸ­{} ì•ˆ
 		
 		boolean b = true;
-		if(b) {
-			int a=3;
+		
+//		int a = 4;
+		if (b) {
+			int a = 3;
 			System.out.println(a);
 		}
-//		System.out.println(a);  if ºí·° ¹Û a »ç¿ë ºÒ°¡
+		
+//		System.out.println(a);
 	}
 }

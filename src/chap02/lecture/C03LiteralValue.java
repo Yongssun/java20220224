@@ -2,31 +2,49 @@ package chap02.lecture;
 
 public class C03LiteralValue {
 	public static void main(String[] args) {
-		//¼ıÀÚ °¡´É
-		System.out.println(1213);
-		System.out.println(0.123);
-		System.out.println(1.23);
-		System.out.println(1+2);
-		//ÇÏ³ªÀÇ ¹®ÀÚ''
+		
+		// ì •ìˆ˜ literal
+		System.out.println(10);
+		
+		// ì‹¤ìˆ˜ literal
+		System.out.println(3.14);
+		System.out.println(0.1);
+		System.out.println(1.137294);
+		
+		// ë¬¸ì literal (í•˜ë‚˜ì˜ ë¬¸ì)
 		System.out.println('a');
 		System.out.println('b');
-//		System.out.println('');
-//		System.out.println('ab');
+		System.out.println('A');
+//		System.out.println('AB'); // x
+//		System.out.println(''); // x
 		System.out.println(' ');
-		System.out.println('°¡');
+		System.out.println('ê°€');
 		System.out.println('0');
-		System.out.println();//ºóÁÙ Ãâ·Â
-		//º¹¼ö 0°³ÀÇ ¹®ÀÚ³ª¿­
+		System.out.println(); // ë¹ˆ ì¤„ ì¶œë ¥
+		System.out.println('ë‚˜');
+//		System.out.println('ğŸ”');
+		
+		// ë¬¸ìì—´ literal (0ê°œ ì´ìƒì˜ ë¬¸ì ë‚˜ì—´)
 		System.out.println("");
-		System.out.println("a");
-		System.out.println("abc");
-		System.out.println("°¡³ª´Ù");
-		System.out.println("I am \"iron man\"");//\ 
-		System.out.println("hello\tWorld"); //\t ÅÇ
-		System.out.println("hello\nwolrd");//\n ´ÙÀ½ÁÙ
+		System.out.println("A");
+		System.out.println("ABC");
+		System.out.println("ê°€ë‚˜ë‹¤");
+		System.out.println("ğŸ•ğŸ•"); // win + .
+		System.out.println("Hello World!@#$");
+		System.out.println("Hello\tWorld"); // \t íƒ­
+		System.out.println("Hello\nWorld"); // \n ë‹¤ìŒì¤„
+		System.out.println("I'm ironman");
+		System.out.println("I am \"ironman\""); // \"
 		System.out.println("backslash \\");
-		//³í¸®
-		 System.out.println(true);
-		 System.out.println(false);
+		
+		// ë…¼ë¦¬(boolean) literal (true, false)
+		System.out.println(true);
+		System.out.println(false);
 	}
 }
+
+
+
+
+
+
