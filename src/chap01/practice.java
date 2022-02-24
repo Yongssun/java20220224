@@ -39,11 +39,11 @@ public class practice {
 		int score1 = 85;
 
 		if (score1 >= 90) {
-			System.out.println("Á¡¼ö°¡ 90º¸´Ù Å®´Ï´Ù");
-			System.out.println("µî±ŞÀº aÀÔ´Ï´Ù");
+			System.out.println("ì ìˆ˜ê°€ 90ì  ì´ìƒì…ë‹ˆë‹¤.");
+			System.out.println("A");
 		} else {
-			System.out.println("Á¡¼ö°¡ 90º¸´Ù ÀÛ½À´Ï´Ù");
-			System.out.println("µî±ŞÀº bÀÔ´Ï´Ù");
+			System.out.println("ì ìˆ˜ê°€ 90ì  ë°‘ì…ë‹ˆë‹¤");
+			System.out.println("B");
 		}
 		
 		
@@ -53,17 +53,17 @@ public class practice {
 		int num = (int) (Math.random() * 6) + 1;
 
 		if (num == 1) {
-			System.out.println("1ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("\"1\"ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤");
 		} else if (num == 2) {
-			System.out.println("2ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("\"2\"ê°€ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 3) {
-			System.out.println("3ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("\"3\"ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 4) {
-			System.out.println("4ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("\"4\"ê°€ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 5) {
-			System.out.println("5ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("\"5\"ê°€ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("6ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("\"6\"ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		}
 		
 		
@@ -71,7 +71,7 @@ public class practice {
 		
 		
 		int point = (int) (Math.random() * 20) + 75;
-		System.out.println("Á¡¼ö:" + point);
+		System.out.println("ì ìˆ˜:" + point);
 
 		String grade;
 
@@ -85,10 +85,10 @@ public class practice {
 		} else if (point >= 80) {
 			grade = "B";
 		} else {
-			grade = "C Àç¼ö°­ÀÔ´Ï´Ù";
+			grade = "C ì¬ìˆ˜ê°• ì…ë‹ˆë‹¤";
 		}
 
-		System.out.println("ÇĞÁ¡:" + grade);
+		System.out.println("í•™ì :" + grade);
 		
 		
 		System.out.println("--------------------------------------");
