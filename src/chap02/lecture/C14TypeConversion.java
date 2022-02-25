@@ -19,5 +19,7 @@ public class C14TypeConversion {
 		
 		double d3 = (double)i3/i4;
 		System.out.println(d3);
+		byte f8 = 10;
+		int result = 5 +f8;
 	}
 }
