@@ -1,0 +1,21 @@
+package chap03.lecture.ternary;
+
+public class C01Ternery {
+	public static void main(String[] args) {
+		// 삼항 연산자
+		// 1번항?2번항:3번항
+		// 1번항이 true.일시 2번항이 결과
+		// false이면 3번항이 결과
+
+		int i = true ? 1 : 2;
+		System.out.println(i);
+		int j = false ? 1 : 2;
+		System.out.println(j);
+
+		System.out.println(true ? "가" : "나");
+		System.out.println(false ? "다" : "라");
+
+		int k = 3;
+		System.out.println((k != 3) ? "마" : "바");
+	}
+}
