@@ -11,14 +11,21 @@ public static void main(String[] args) {
 	int sum=0;
 	int a=0;
 	double arg=0.0;
-	int[][] array1=new int[array.length][array[array.length-1].length];
-	for(int i=0;i<array.length;i++) {
-		for(int j=0;j<array[array.length-1].length;j++) {
-			sum+=array1[i][j];
-			a++;
+	int cnt=0;
+//	for(int i=0;i<array.length;i++) {
+//		for(int j=0;j<array[i].length;j++) {
+//			sum+=array[i][j];
+//			a++;
+//		}
+//	}
+//	arg=(double)sum/10;
+	for(int[] item:array) {
+		for(int num :item) {
+			sum+=num;
+			cnt++;
 		}
 	}
-	arg=sum/a;
+	arg=(double)sum/cnt;
 	System.out.println(sum);
 	System.out.println(arg);
 }

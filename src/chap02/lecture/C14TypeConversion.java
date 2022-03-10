@@ -21,5 +21,7 @@ public class C14TypeConversion {
 		System.out.println(d3);
 		byte f8 = 10;
 		int result = 5 +f8;
+		int n=9;
+		System.out.println(Math.sqrt(n));
 	}
 }

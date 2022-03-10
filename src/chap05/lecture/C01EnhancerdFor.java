@@ -13,5 +13,7 @@ public class C01EnhancerdFor {
 				System.out.println(item);
 				System.out.println("코드반복");
 			}
+			int[] nums= new int{1,2,3};
+			System.out.println(nums*2);
 	}
 }
