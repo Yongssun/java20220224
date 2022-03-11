@@ -1,6 +1,6 @@
 package chap06.lecture.p03constructor;
 
-public class App4 {
+public class App04 {
 	public static void main(String[] args) {
 		Star s1= new Star(3);
 		System.out.println(s1.stars);
