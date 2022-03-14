@@ -1,6 +1,6 @@
 package chap06.book.s060705;
 
-import chap06.book.s060704.Car;
+
 
 public class CarExample {
 public static void main(String[] args) {
