@@ -1,5 +1,5 @@
 package chap07.book.p070804;
 
-public class Animal {
+public abstract class Animal {
 
 }

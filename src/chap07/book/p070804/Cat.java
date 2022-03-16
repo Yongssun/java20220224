@@ -4,6 +4,6 @@
 
 package chap07.book.p070804;
 
-public class Cat {
+public class Cat extends Animal {
 
 }

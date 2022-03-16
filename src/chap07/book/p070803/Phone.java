@@ -1,5 +1,5 @@
 package chap07.book.p070803;
 
-public class Phone {
+public abstract class Phone {
 
 }
